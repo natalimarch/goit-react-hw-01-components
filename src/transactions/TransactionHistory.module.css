@@ -1,0 +1,25 @@
+.transactionHistory {
+  border-collapse: collapse;
+  border: 1px solid #c0c0c0;
+  box-shadow: 0 3px 3px #c0c0c0;
+}
+
+.column {
+  padding: 10px 50px;
+  border: 1px solid #fff;
+  border-bottom: 1px solid #c0c0c0;
+  text-align: center;
+  background-color: #8dd9cc;
+  color: #fff;
+}
+
+.mainColumns {
+  padding: 10px 50px;
+  border: 1px solid #c0c0c0;
+  color: #c0c0c0;
+  text-align: center;
+}
+
+.main-row:nth-child(odd) {
+  background-color: #eee;
+}
